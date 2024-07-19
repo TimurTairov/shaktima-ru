@@ -18,7 +18,7 @@ const Column: React.FC<ColumnTypeProps> = ({ img, title, txt, url, url_info }) =
         <Image src={img} alt={title} width={900} height={700} style={{ width: '100%', height: 'auto' }} className="rounded object-cover" />
       </div>
 
-      <div className="flex flex-col w-full px-1">
+      <div className="flex flex-col w-full px-1 mt-2">
         <h3 className="dark:text-white  text-gray-500 font-semibold text-lg lg:text-2xl">{title}</h3>
         <p className=" text-gray-500">
           {txt}

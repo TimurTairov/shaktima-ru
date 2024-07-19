@@ -24,7 +24,7 @@ const Contacts = () => {
 
       <div className="flex">
         <Image src={whapsup} width={25} height={25} className="mr-2" alt="whapsup" />
-        <h5 className="dark:text-slate-400 text-gray-700">
+        <h5 className=" text-gray-700">
           Тиртхадэва:
           <a href="whatsapp://send?phone=+79672067710" target="_blank" rel="noreferrer" className="text-gray-700 hover:text-indigo-700 hover:underline ml-2">
             +79672067710
@@ -62,7 +62,7 @@ const Contacts = () => {
         </li>
         <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
           <a href="https://www.siddhashop.com/" className="flex" target="_blank" rel="noreferrer">
-            <Image src={shop} width={25} height={20} className="mr-2" alt="shop" />
+            <Image src={shop} width={25} height={25} className="mr-2" alt="shop" />
             Сиддха шоп. Наш официальный интернет магазин.
           </a>
         </li>

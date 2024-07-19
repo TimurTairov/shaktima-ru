@@ -32,6 +32,11 @@ const Footer = () => {
               </Link>
             </li>
             <li>
+              <Link className="footer-link" href="/gallary">
+                Галлерея
+              </Link>
+            </li>
+            <li>
               <Link className="footer-link" href="/aboutus">
                 О нас
               </Link>
