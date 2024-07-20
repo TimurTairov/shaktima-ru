@@ -37,33 +37,33 @@ const Contacts = () => {
       {/* <p className="dark:text-slate-400 text-gray-700">Дэванатха: +79055623388 </p> */}
       <h1 className="text-xl mt-4 mb-2">Наши ресурсы</h1>
       <ul>
-        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
-          <a href="https://www.youtube.com/@ShaktiMA_MDC" className="flex" target="_blank" rel="noreferrer">
-            <Image src={youtube} width={25} height={25} className="mr-2" alt="whapsup" />
+        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
+          <Image src={youtube} width={25} height={25} className="mr-2" alt="whapsup" />
+          <a href="https://www.youtube.com/@ShaktiMA_MDC" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
             YouTube канал
           </a>
         </li>
-        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
-          <a href="https://t.me/mdc_ShaktiMa" className="flex" target="_blank" rel="noreferrer">
-            <Image src={tg} width={25} height={25} className="mr-2" alt="whapsup" />
+        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
+          <Image src={tg} width={25} height={25} className="mr-2" alt="whapsup" />
+          <a href="https://t.me/mdc_ShaktiMa" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
             Telegram канал
           </a>
         </li>
-        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
-          <a href="https://www.advayta.org/" className="flex" target="_blank" rel="noreferrer">
-            <Image src={om} width={25} height={25} className="mr-2" alt="whapsup" />
+        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
+          <Image src={om} width={25} height={25} className="mr-2" alt="whapsup" />
+          <a href="https://www.advayta.org/" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
             Официальный сайт нашей традиции
           </a>
         </li>
-        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
-          <a href="https://institute-vasishtha.com/" className="flex" target="_blank" rel="noreferrer">
-            <img src="https://institute-vasishtha.com/local/include/template/png/screen-1-img.png" className="w-7 h-7 mr-2" alt="institute-vasishtha.com" />
+        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
+          <img src="https://institute-vasishtha.com/local/include/template/png/screen-1-img.png" className="w-7 h-7 mr-2" alt="institute-vasishtha.com" />
+          <a href="https://institute-vasishtha.com/" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
             Институт Риши Васиштхи. Прохождение обучения по курсам.
           </a>
         </li>
         <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
           <FaShoppingCart color='green' className="h-5 w-5 mr-2" />
-          <a href="https://www.siddhashop.com/" className="flex" target="_blank" rel="noreferrer">
+          <a href="https://www.siddhashop.com/" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
             Сиддха шоп. Наш официальный интернет магазин.
           </a>
         </li>
