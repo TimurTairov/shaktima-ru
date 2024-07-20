@@ -2,8 +2,10 @@ import Image from 'next/image'
 import youtube from '@/public/images/icons/youtube.png'
 import tg from '@/public/images/icons/tg.png'
 import om from '@/public/images/om_big.png'
-import whapsup from '../../public/images/gif/whatsapp.gif'
+import whapsup from '../../public/images/icons/whatsapp.png'
 import shop from '@/public/images/icons/shopping-cart.png'
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaShoppingCart } from "react-icons/fa";
 
 
 const Contacts = () => {
@@ -55,14 +57,13 @@ const Contacts = () => {
         </li>
         <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
           <a href="https://institute-vasishtha.com/" className="flex" target="_blank" rel="noreferrer">
-            {/* <Image src='https://institute-vasishtha.com/local/include/template/png/screen-1-img.png' width={25} height={25} className="mr-2" alt="whapsup" /> */}
             <img src="https://institute-vasishtha.com/local/include/template/png/screen-1-img.png" className="w-7 h-7 mr-2" alt="institute-vasishtha.com" />
             Институт Риши Васиштхи. Прохождение обучения по курсам.
           </a>
         </li>
-        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2">
+        <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
+          <FaShoppingCart color='green' className="h-5 w-5 mr-2" />
           <a href="https://www.siddhashop.com/" className="flex" target="_blank" rel="noreferrer">
-            <Image src={shop} width={25} height={25} className="mr-2" alt="shop" />
             Сиддха шоп. Наш официальный интернет магазин.
           </a>
         </li>
