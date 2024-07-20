@@ -1,7 +1,6 @@
 'use client'
 import ImageGallery from "react-image-gallery";
 import { paambatiJayanti_2023 } from '../photos'
-import styles from '../style.module.css'
 
 const Paambatijayantiphoto2023 = () => {
   const settings = {

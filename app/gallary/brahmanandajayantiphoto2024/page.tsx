@@ -1,6 +1,5 @@
 'use client'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { Carousel } from 'react-responsive-carousel'
 import { brahmanandaJayanti_2024 } from '../photos'
 
 import ImageGallery from "react-image-gallery";
