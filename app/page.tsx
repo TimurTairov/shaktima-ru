@@ -22,18 +22,26 @@ export default function Home() {
   return (
     <main className="flex min-h-screen px-1 flex-col items-center justify-between">
       <>
+        <div className="flex h-20 w-full items-center justify-center bg-gradient-to-tr to-red-700 from-red-800">
+          <div className="w-max">
+            <h1
+              className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-xs  lg:text-3xl text-white font-bold">
+              Добро пожаловать в пространство чистого видения! О-м-м
+            </h1>
+          </div>
+        </div>
         <div className="max-w-screen-xl mx-auto mt-4">
           {/* banners */}
           <section className=" lg:flex justify-between lg:space-x-2">
-            <Link href="/" className="w-full lg:w-7/12 h-48 md:h-96 lg:h-96 mb-4 relative rounded-xl inline-block overflow-hidden bg-gradient-to-b from-red-300 to-red-700"
+            <Link href="/" className="w-full lg:w-7/12 h-48 md:h-96 lg:h-96 mb-4 relative rounded-xl inline-block overflow-hidden bg-gradient-to-b from-red-50 to-red-200"
             >
               <div className="absolute left-0 top-0 w-full h-full z-0 bg-gradient-to-b from-black/10 to-black/80"></div>
               <ImageGallery items={home_banner_1} {...settings} />
             </Link>
 
-            <Link href='#' className="w-full lg:w-4/12 h-96 mb-4 bg-gradient-to-b from-red-200 to-red-700 relative rounded-xl inline-block overflow-hidden">
+            <Link href='#' className="w-full lg:w-4/12 h-96 mb-4 bg-gradient-to-b z-0 from-red-50 to-red-200 relative rounded-xl inline-block overflow-hidden">
               {/* <div className="absolute left-0 top-0 w-full h-full z-0 bg-gradient-to-b from-black/10 to-black/50"></div> */}
-              <Image className="absolute left-0 top-0 w-full h-full z-0 object-contain lg:object-cover" src={logo} alt="logotip ShaktiMa" />
+              <Image className="absolute left-0 top-0 w-full h-full z-1 object-contain lg:object-cover" src={logo} alt="logotip ShaktiMa" />
               <div className="p-4 absolute bottom-0 left-0 z-0">{/* <h2 className="text-2xl font-semibold text-gray-100 leading-tight">МДЦ ШактиМа</h2> */}
               </div>
             </Link>

@@ -4,10 +4,10 @@ import { FaTelegram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="mx-auto border-t mt-auto py-5  px-2 bg-gray-100">
+    <footer className="mx-auto border-t mt-auto py-5 px-2 bg-white shadow-md">
       <div className="md:flex">
         <div className="w-full mb-5 md:w-2/5 lg:ml-20">
-          <h6 className="dark:text-white font-semibold text-gray-700 mb-4">
+          <h6 className="font-semibold text-gray-700 mb-4">
             Московский Дхарма центр ШактиМа
           </h6>
           <ul>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full mb-5 md:w-2/5">
-          <h6 className="dark:text-white font-semibold text-gray-700 mb-1">
+          <h6 className="font-semibold text-gray-700 mb-1">
             Контент
           </h6>
           <ul className='lg:flex'>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
 
         <div className="w-1/5">
-          <h6 className="dark:text-white font-semibold text-gray-700 mb-4">
+          <h6 className="font-semibold text-gray-700 mb-4">
             Ресурсы
           </h6>
           <ul className="flex">

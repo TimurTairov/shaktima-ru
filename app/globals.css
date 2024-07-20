@@ -12,7 +12,7 @@
 }
 
 .header-link {
-  @apply dark:text-slate-200 dark:hover:text-purple-500 dark:hover:border-purple-500 transition-all duration-300 text-gray-700 inline-block py-2 px-1 border border-transparent hover:text-red-800 hover:border-red-800 hover:bg-red-50 mx-1 rounded text-sm lg:text-base;
+  @apply dark:text-slate-200 dark:hover:text-purple-500 dark:hover:border-purple-500 transition-all duration-300 text-gray-700 inline-block py-2 px-1 border border-transparent hover:text-red-800 hover:border-red-800 hover:bg-red-50 mx-1 font-semibold rounded text-sm lg:text-base;
 }
 
 .footer-link {
@@ -64,167 +64,32 @@ button {
   border: 2px solid gray;
 }
 
-/* :root {
-  --color-bg: #2c2c32;
-  --color-active: #0f7dc6;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-/* header {
-  background-color: var(--color-bg);
-  padding: 2rem 0;
-  text-align: center;
-}
-header > a {
-  color: white;
-  text-decoration: none;
-  padding: 0 1rem;
-}
-header > a:hover {
-  text-decoration: underline;
-} */
-
-/* h1 {
-  text-align: center;
-  margin-top: 0;
-} */
-
-/* .container {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  margin: 0 auto;
-  background-color: antiquewhite;
-} */
-
-main {
-  min-height: calc(100vh - 85px - 22px);
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-main a {
-  text-decoration: none;
-  color: var(--color-bg);
-}
-
-main a:hover {
-  text-decoration: underline;
-}
-
-.active {
-  color: var(--color-active);
-  cursor: default;
-}
-
-form {
-  display: flex;
-  justify-content: center;
-}
-
-form button,
-button,
-input[type='submit'] {
-  background-color: var(--color-active);
-  cursor: pointer;
-  color: white;
-  border: none;
-}
-
-input[type='search'] {
-  padding: 0.5rem 1rem;
-}
-
-.stack {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-.login-form {
-  display: grid;
-  gap: 1rem;
-}
-
-.form {
-  flex-direction: column;
-  gap: 1rem;
-}
-
-hr {
-  margin: 5rem;
-}
-
-input[type='text'],
-textarea {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-input[type='submit'] {
-  padding: 0.5rem 1rem;
-}
-
-.edit-text {
-  min-height: 300px;
-}
-
-.add-new {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #0f7dc6;
-  color: white;
-  border-radius: 5%;
-  margin-top: 1.5rem;
-}
-
-.posts {
-  display: grid;
-  gap: 1rem;
-  list-style: none;
-}
-
-.post-item {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
-}
-
-.post-item:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
 .gradient {
-  height: 100vh;
+  /* height: 100vh; */
   z-index: -3;
   width: 100%;
-  max-width: 768px;
+  /* max-width: 768px; */
   background-image: radial-gradient(
       at 27% 37%,
-      rgb(248, 77, 143) 0px,
-      transparent 0%
+      rgb(247, 115, 165) 0px,
+      transparent 50%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, rgb(252, 254, 114) 0px, transparent 50%),
     radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, rgb(118, 233, 248) 0px, transparent 50%),
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 33% 50%, rgb(156, 182, 245) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, rgb(243, 119, 154) 0px, transparent 50%);
   position: absolute;
   content: '';
   width: 100%;
-  height: 100vh;
-  filter: blur(100px) saturate(150%);
-  top: 100px;
+  /* height: 100vh; */
+  filter: blur(150px) saturate(150%);
+  top: 0;
+  bottom: 0;
   opacity: 0.15;
+}
+
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
 }

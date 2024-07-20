@@ -1,26 +1,32 @@
+import devanatha from '@/public/pujari/Devanatha.jpg'
+import madhuvidiya from '@/public/pujari/Madhuvidiya.jpg'
+import anantarupa from '@/public/pujari/Anantarupa.jpg'
+
+import ramana from '@/public/pujari/Ramana.jpg'
+
 export const pudjari = [
   {
     id: '001',
+    foto: devanatha,
     name: 'Дэванатха',
-    foto: 'https://sun9-80.userapi.com/impg/DyUczFAX85RP1Izv-e2QfoSX9JzNoN28SodFUQ/LOyW_XI87YA.jpg?size=1440x2160&quality=95&sign=353b8fe62d05a20ae08f3dbd532692de&type=album',
     description: 'Пуджари. В традиции с 1998 г. Руководитель дхарма центра.',
   },
   {
-    id: '004',
+    id: '002',
+    foto: madhuvidiya,
     name: 'Мадхувидья',
-    foto: 'https://sun9-11.userapi.com/impg/Fsz3_l0e3VEcRsrLk-q6F9jrQIZUwX0bnp_iVA/WcYPGhVTrak.jpg?size=1440x2160&quality=95&sign=43027b1abc56433c193383497edce004&type=album',
     description: 'Пуджари. В традиции с 2011 г.',
   },
   {
     id: '003',
+    foto: anantarupa,
     name: 'Анантарупа',
-    foto: 'https://sun9-79.userapi.com/impg/WQnhTfZ5_zuPWaW2jp2122dHjtRf_e1d5Y2Yrg/_9Go8NUxEDM.jpg?size=1440x2160&quality=95&sign=09ebeb32f2fa291865c1150829d5de58&type=album',
     description: 'Пуджари. В традиции с 2018 г.',
   },
   {
-    id: '002',
+    id: '004',
+    foto: ramana,
     name: 'Рамана',
-    foto: 'https://sun9-68.userapi.com/impg/nlyrVD78dknrX0wnr3bXak_twHaA4axmFuG08w/bIGtBUJSqV8.jpg?size=1440x2160&quality=95&sign=fe91062117af218432cf1d40a5511645&type=album',
     description: 'Пуджари. В традиции с 2019 г.',
   },
 ]

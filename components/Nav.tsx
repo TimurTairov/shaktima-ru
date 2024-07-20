@@ -14,19 +14,19 @@ const Nav = () => {
   return (
     <>
       <div className="flex md:w-3/4">
-        <div className="hidden w-full justify-end md:flex">
+        <nav className="hidden w-full justify-end md:flex">
           <NavLinks />
-        </div>
-        <div className="md:hidden">
+        </nav>
+        <div className="md:hidden flex items-center justify-center">
           <button onClick={toggleNavBar}>
             {isOpen ? <FaXmark color={'darkred'} className="block h-10 w-10" /> : <FiMenu color={'darkred'} className="block h-10 w-10" />}
           </button>
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden flex basis-full flex-col items-start" >
+        <nav className="md:hidden flex basis-full flex-col items-start" >
           <NavLinks />
-        </div>
+        </nav>
       )}
 
     </>

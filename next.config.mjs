@@ -47,6 +47,18 @@ const nextConfig = {
         protocol: 'https',
         hostname: "sun9-71.userapi.com",
       },
+      {
+        protocol: 'https',
+        hostname: "sun9-80.userapi.com",
+      },
+      {
+        protocol: 'https',
+        hostname: "sun9-11.userapi.com",
+      },
+      {
+        protocol: 'https',
+        hostname: "*.userapi.com",
+      },
     ]
   },
   typescript: {

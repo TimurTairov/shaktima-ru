@@ -10,6 +10,7 @@ function AboutUs() {
       {pudjari.map((atman) => {
         return <Pudjari key={atman.id} img={atman.foto} name={atman.name} description={atman.description} />
       })}
+
     </div>
   )
 }
