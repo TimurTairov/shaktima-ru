@@ -25,8 +25,8 @@ export default function Home() {
         <div className="flex h-20 w-full items-center justify-center bg-gradient-to-tr to-red-700 from-red-800">
           <div className="w-max">
             <h1
-              className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-xs  lg:text-3xl text-white font-bold">
-              Добро пожаловать в пространство чистого видения! О-м-м
+              className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 lg:pr-7 text-xs md:text-base  lg:text-3xl text-white font-bold">
+              Добро пожаловать в пространство чистого видения!
             </h1>
           </div>
         </div>
