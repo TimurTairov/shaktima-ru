@@ -7,7 +7,7 @@ import EventList from "@/components/EventList"
 
 const Eventlist2024 = () => {
   return (
-    <div className="max-w-screen-xl my-4 mx-auto">
+    <div className="max-w-screen-xl my-4 mx-auto rounded-lg bg-white/40">
       <div className="mx-2">
         <h3 className="dark:text-white  text-gray-700 font-bold text-2xl mb-4">Календарь событий 2024</h3>
         {/* <div className="dark:text-slate-400 text-gray-700 mx-2 mt-2">

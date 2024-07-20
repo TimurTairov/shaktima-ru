@@ -3,7 +3,7 @@ import { allArticles } from './index'
 
 const Blog = () => {
   return (
-    <div className="max-w-screen-xl px-1 mx-auto mt-4 lg:h-screen">
+    <div className="max-w-screen-xl px-1 mx-auto my-4 rounded-lg lg:h-screen">
       <h1 className="text-2xl mb-4">Блог</h1>
       <div className="flex flex-row flex-wrap justify-center lg:justify-start">
         {allArticles.map((article) => {

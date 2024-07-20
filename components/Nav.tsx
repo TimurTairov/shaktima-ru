@@ -19,7 +19,7 @@ const Nav = () => {
         </nav>
         <div className="md:hidden flex items-center justify-center">
           <button onClick={toggleNavBar}>
-            {isOpen ? <FaXmark color={'darkred'} className="block h-10 w-10" /> : <FiMenu color={'darkred'} className="block h-10 w-10" />}
+            {isOpen ? <FaXmark color={'crimson'} className="block h-10 w-10" /> : <FiMenu color={'crimson'} className="block h-10 w-10" />}
           </button>
         </div>
       </div>

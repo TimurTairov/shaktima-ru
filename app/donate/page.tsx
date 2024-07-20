@@ -1,10 +1,9 @@
 import { BiSolidDonateHeart } from "react-icons/bi";
 
-
 const Donate = () => {
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-4 h-screen">
+    <div className="max-w-screen-xl mx-auto my-4 h-screen rounded-lg bg-white/40">
       <h1 className="text-2xl ml-2 mb-4">Пожертвовать на развитие Дхарма центра</h1>
       <div className="ml-2">
         <div className="flex items-center text-xl my-2 text-indigo-600">

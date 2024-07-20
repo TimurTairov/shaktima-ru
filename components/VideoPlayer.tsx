@@ -8,7 +8,7 @@ interface VideoPlayerTypeProps {
 const VideoPlayer: React.FC<VideoPlayerTypeProps> = ({ link }) => {
   return (
     <>
-      <ReactPlayer url={link} controls playing width={'auto'} />
+      <ReactPlayer url={link} controls width={'auto'} />
     </>
   )
 }

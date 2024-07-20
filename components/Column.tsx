@@ -12,7 +12,7 @@ interface ColumnTypeProps {
 //! Новости
 const Column: React.FC<ColumnTypeProps> = ({ img, title, txt, url, url_info }) => {
   return (
-    <div className="block w-full lg:flex lg:flex-col mb-10 rounded-lg border-2 border-red-400">
+    <div className="block w-full lg:flex lg:flex-col mb-10 rounded-lg  bg-white/40">
 
       <div className="w-full h-[12rem] md:h-[25rem] lg:h-[27rem] lg:w-auto opacity-90  relative">
         <Image src={img} alt={title} width={900} height={700} style={{ width: '100%', height: 'auto' }} className="rounded object-cover" />

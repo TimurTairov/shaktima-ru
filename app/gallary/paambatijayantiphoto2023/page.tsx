@@ -13,11 +13,11 @@ const Paambatijayantiphoto2023 = () => {
   }
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-4">
+    <div className="max-w-screen-xl mx-auto my-4 rounded-lg bg-white/40">
       <div className="mx-2">
-        <h1 className="text-2xl ml-2">Фотографии с Паамбатиджаянти 2023</h1>
-        <div className="mt-10 mb-10">
-          <div className=" max-h-[600px] flex justify-center items-center">
+        <h1 className="text-2xl text-center">Фотографии с Паамбатиджаянти 2023</h1>
+        <div className="my-4">
+          <div className=" flex justify-center items-center">
             <ImageGallery items={paambatiJayanti_2023} {...settings} />
           </div>
         </div>

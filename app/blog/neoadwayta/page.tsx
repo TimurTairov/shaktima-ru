@@ -1,6 +1,6 @@
 const NeoAdwayta = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-4">
+    <div className="max-w-screen-xl mx-auto mt-4 bg-white/40">
       <h3 className="dark:text-white  text-gray-700 font-bold text-2xl mx-2">Как не попасть в ловушку поверхностной Адвайты</h3>
       <div className="dark:text-slate-400 text-gray-600 mx-2 mt-4">
         <p className="my-2">

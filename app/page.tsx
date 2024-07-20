@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen px-1 flex-col items-center justify-between">
       <>
-        <div className="flex h-20 w-full items-center justify-center bg-gradient-to-tr to-red-700 from-red-800">
+        <div className="flex h-10 lg:h-20 w-full items-center justify-center rounded bg-gradient-to-tr to-red-700 from-red-800">
           <div className="w-max">
             <h1
               className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 lg:pr-7 text-xs md:text-base  lg:text-3xl text-white font-bold">
@@ -61,7 +61,7 @@ export default function Home() {
 
             {/* topics */}
             <div className="w-full lg:w-4/12 md:flex md:space-x-6 lg:block lg:space-x-0">
-              <div className="w-full mb-5">
+              <div className="w-full mb-4">
                 <h5 className="dark:text-white font-bold text-lg uppercase text-gray-500 mb-2">Популярные статьи</h5>
                 <ul>
                   <li className="dark:border-transparent dark:hover:border-gray-200 px-1 py-1 border-y border-white hover:border-gray-200 transition-all duration-300">

@@ -1,14 +1,14 @@
 import Image from "next/image"
 
 interface PudjariTypeProps {
-  img: HTMLImageElement,
+  img: string,
   name: string,
   description: string,
 }
 
 const Pudjari: React.FC<PudjariTypeProps> = ({ img, name, description }) => {
   return (
-    <div className="flex items-center h-48 w-auto border-2 border-red-300 rounded-lg p-1 my-4">
+    <div className="flex items-center h-48 w-auto rounded-lg p-1 my-4 bg-white/40">
       <Image
         src={img}
         width={150}

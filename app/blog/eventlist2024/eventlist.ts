@@ -101,7 +101,7 @@ export const eventList2024 = [
     id: 15,
     date: '17.07.2024',
     event: 'Экадаши Падма',
-    done: false,
+    done: true,
     link: '',
   },
   {

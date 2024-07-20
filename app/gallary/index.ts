@@ -22,7 +22,7 @@ export const allGallaries = [
   },
   {
     id: '004',
-    tittle: 'Паамбатиджаянти',
+    tittle: 'Паамбати джаянти',
     description: '14 фотографий с Паамбатиджаянти 2023',
     img: 'https://sun9-21.userapi.com/impg/RfmWlXZox3osgjBeUTY4a_x99MM3hUUpeLdhHQ/iv0YDOEXl2U.jpg?size=1080x1080&quality=95&sign=71a9a3a4083a90cbcf46cb6620d9afec&type=album',
     url: '/gallary/paambatijayantiphoto2023',
@@ -33,5 +33,12 @@ export const allGallaries = [
     description: 'Более 100 фотографий с МахаШиваРатри 2023',
     img: 'https://sun9-61.userapi.com/impg/KXPUJ90xdv-xwLMY5TqB0uiSDGIA9waZ1e8-5g/JkOrFH9cFfw.jpg?size=2500x2500&quality=95&sign=65f145b6c073057bd755fd4c2ea5aadf&type=album',
     url: '/gallary/mahashivaratriphoto2023',
+  },
+  {
+    id: '006',
+    tittle: 'Дханвантари джаянти',
+    description: 'Более фотографий с Дханвантари джаянти',
+    img: 'https://sun9-46.userapi.com/impg/yShUNhd8FiGQJtcFg42JEa3hrOmhARAbld6r2A/Xf9G5OqbALs.jpg?size=1008x1008&quality=95&sign=c67181e637b9180e8cc74ca81096f352&type=album',
+    url: '/gallary/dhanvantarijayantiphoto2023',
   },
 ]

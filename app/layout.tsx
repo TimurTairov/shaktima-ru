@@ -24,23 +24,9 @@ export default function RootLayout({
         <Header />
         {/* <div className=" absolute top-0 bottom-0  w-svw h-full bg-gradient-to-l blur-2xl from-white via-red-100 to-white z-[-1]" >
         </div> */}
-        <div className="overflow-hidden bg-gray-100 shadow-sm p-4">
-          <div className="marquee-content flex gap-4 items-center animate-marquee">
-            <div className="px-4 py-2 bg-blue-500 text-white rounded">Ом</div>
-            <div className="px-4 py-2 bg-green-500 text-white rounded">Намо</div>
-            <div className="px-4 py-2 bg-cyan-500 text-white rounded">Намах</div>
-            <div className="px-4 py-2 bg-teal-500 text-white rounded">Шивая</div>
-            {/* <div className="px-4 py-2 bg-yellow-500 text-black rounded w-full">Шивая</div> */}
-            <div className="px-4 py-2 bg-red-500 text-white rounded">Ом</div>
-            <div className="px-4 py-2 bg-purple-500 text-white rounded">Шива</div>
-            <div className="px-4 py-2 bg-pink-500 text-white rounded">Прабхакарая</div>
-            {/* <div className="px-4 py-2 bg-indigo-500 text-white rounded w-full">Science News</div>
-            <div className="px-4 py-2 bg-teal-500 text-white rounded w-full">Health Tips</div> */}
-            {/* <div className="px-4 py-2 bg-orange-500 text-white rounded w-full">Food & Dining</div> */}
-          </div>
-        </div>
+
         <div className="area absolute top-0 bottom-0 h-full w-full z-[-1]">
-          <div className="flex flex-col w-full h-full blur-[108px] opacity-10">
+          <div className="flex flex-col w-full h-full blur-[108px] lg:blur-[200px] opacity-40">
             <div className="bg-red-500 h-full"></div>
             <div className="bg-orange-500 h-full"></div>
             <div className="bg-yellow-500 h-full"></div>

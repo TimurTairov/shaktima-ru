@@ -12,16 +12,27 @@ const Dattajayantiphoto2023 = () => {
     lazyLoad: true,
   }
   return (
-    <div className="max-w-screen-xl mx-auto mt-4">
-      <div className="mx-2">
-        <h1 className="text-2xl ml-2">Фотографии с Даттаджаянти 2023</h1>
-        <div className="mt-10 mb-10">
-          <div className="flex justify-center items-center w-full">
-            <ImageGallery items={dattaJayanti_2023} {...settings} />
+    <>
+      <div className="overflow-hidden bg-gray-100 shadow-sm p-4">
+        <div className="marquee-content flex gap-4 items-center animate-marquee">
+          <div className="p-1 bg-yellow-500 text-white text-2xl rounded font-semibold">Ом</div>
+          <div className="p-1 bg-yellow-500 text-white text-2xl rounded font-semibold">Драм</div>
+          <div className="p-1 bg-yellow-500 text-white text-2xl rounded font-semibold">Даттатреяя</div>
+          <div className="p-1 bg-yellow-500 text-white rounded text-2xl font-semibold">Намаха</div>
+
+        </div>
+      </div>
+      <div className="max-w-screen-xl mx-auto my-4 rounded-lg bg-white/40">
+        <div className="mx-2">
+          <h1 className="text-2xl text-center">Фотографии с Даттаджаянти 2023</h1>
+          <div className="my-4">
+            <div className="flex justify-center items-center w-full">
+              <ImageGallery items={dattaJayanti_2023} {...settings} />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

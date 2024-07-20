@@ -1,24 +1,23 @@
 'use client'
 import ImageGallery from "react-image-gallery";
-import { mshr_2023 } from '../photos'
+import { dhanvantariJayanti_2023 } from '../photos'
 
-const Mahashivaratriphoto2023 = () => {
+const Dattajayantiphoto2023 = () => {
   const settings = {
-    showBullets: false,
+    showBullets: true,
     showIndex: true,
     slideDuration: 1000,
     slideInterval: 3000,
     showFullscreenButton: true,
     lazyLoad: true,
   }
-
   return (
-    <div className="max-w-screen-xl mx-auto my-4 rounded-lg bg-white/40">
+    <div className="max-w-screen-xl mx-auto my-4 bg-white/40">
       <div className="mx-2">
-        <h1 className="text-2xl text-center">Фотографии с МахаШиваРатри 2023</h1>
+        <h1 className="text-2xl text-center">Фотографии с Дханвантариджаянти 2023</h1>
         <div className="my-4">
           <div className="flex justify-center items-center w-full">
-            <ImageGallery items={mshr_2023} {...settings} />
+            <ImageGallery items={dhanvantariJayanti_2023} {...settings} />
           </div>
         </div>
       </div>
@@ -26,4 +25,4 @@ const Mahashivaratriphoto2023 = () => {
   )
 }
 
-export default Mahashivaratriphoto2023
+export default Dattajayantiphoto2023

@@ -8,16 +8,16 @@ import shop from '@/public/images/icons/shopping-cart.png'
 
 const Contacts = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-1 mt-4 h-screen ">
+    <div className="max-w-screen-xl mx-auto px-1 my-4 h-screen bg-white/40">
 
       <h1 className="text-2xl mb-2">Контакты для связи</h1>
 
-      <div className="flex">
+      <div className="flex mb-2">
         <Image src={whapsup} width={25} height={25} className="mr-2" alt="whapsup" />
         <h5 className="dark:text-slate-400 text-gray-700">
           Мадхувидья:
-          <a href="whatsapp://send?phone=+79859274240" target="_blank" rel="noreferrer" className="text-gray-700 hover:text-indigo-700 hover:underline ml-2">
-            +79859274240
+          <a href="whatsapp://send?phone=+79859274240" target="_blank" rel="noreferrer" className="text-gray-700 hover:text-indigo-700 hover:underline ml-2 ">
+            написать в WhapsUp
           </a>
         </h5>
       </div>
@@ -26,8 +26,8 @@ const Contacts = () => {
         <Image src={whapsup} width={25} height={25} className="mr-2" alt="whapsup" />
         <h5 className=" text-gray-700">
           Тиртхадэва:
-          <a href="whatsapp://send?phone=+79672067710" target="_blank" rel="noreferrer" className="text-gray-700 hover:text-indigo-700 hover:underline ml-2">
-            +79672067710
+          <a href="whatsapp://send?phone=+79672067710" target="_blank" rel="noreferrer" className="text-gray-700 hover:text-indigo-700 hover:underline ml-2 ">
+            написать в WhapsUp
           </a>
         </h5>
       </div>
