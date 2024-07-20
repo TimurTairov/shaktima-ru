@@ -156,7 +156,7 @@ export const eventList2024 = [
   {
     id: 23,
     date: '03.10.2024',
-    event: '03.10.2024 Осеннее Наваратри',
+    event: 'Осеннее Наваратри',
     done: false,
     link: '',
   },
