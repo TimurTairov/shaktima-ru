@@ -2,9 +2,10 @@ import Logo from './Logo'
 import Nav from './Nav'
 import { Open_Sans } from 'next/font/google'
 import { Montserrat } from "next/font/google";
+import { Comfortaa } from "next/font/google";
 
 
-const headerFont = Montserrat({ subsets: ['cyrillic'] });
+const headerFont = Comfortaa({ subsets: ['cyrillic'] });
 
 const Header = () => {
   return (
