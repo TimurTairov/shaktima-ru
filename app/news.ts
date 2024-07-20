@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: '012',
+    title: 'ГУРУ ПУРНИМА',
+    description:
+      'Поздравляем сангху с праздником Гуру Пурнима! Пусть благословения Гуруджи всегда пребывают с Вами, Ваши санкальпы сбываются, садхана практикуется, Учение успешно осваивается!',
+    image:
+      'https://sun9-2.userapi.com/impg/1ik04-eletnJVTwxTU7HdRA17Pd1AEhO5osoAw/jkITeY41IbA.jpg?size=1280x720&quality=95&sign=ae6d4cbae65b9cec39262cbaf88af85f&type=album',
+    url_info: '',
+    url: '',
+  },
+  {
     id: '011',
     title: 'Курс медитации для начинающих',
     description:
@@ -39,6 +49,7 @@ export const news = [
     url_info: 'Подробнее...',
     url: 'https://telegra.ph/Priglashaem-na-tradicionnye-ritrity-v-SHri-Datta-ashram-03-27',
   },
+
   // {
   //   "id": "007",
   //   "title": "ДИКША-ИНИЦИАЦИЯ. ИЮЛЬ. АЛМАТЫ",

@@ -108,7 +108,7 @@ export const eventList2024 = [
     id: 16,
     date: '21.07.2024',
     event: 'Гуру-пурнима',
-    done: false,
+    done: true,
     link: '',
   },
   {
