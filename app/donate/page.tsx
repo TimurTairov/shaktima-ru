@@ -3,9 +3,9 @@ import { BiSolidDonateHeart } from "react-icons/bi";
 const Donate = () => {
 
   return (
-    <div className="max-w-screen-xl mx-auto my-4 h-screen rounded-lg bg-white/40">
-      <h1 className="text-2xl ml-2 mb-4">Пожертвовать на развитие Дхарма центра</h1>
-      <div className="ml-2">
+    <div className="max-w-screen-xl mx-2 lg:mx-auto my-4 h-screen rounded-lg bg-white/50">
+      <h1 className="text-2xl mx-2 my-4">Пожертвовать на развитие Дхарма центра</h1>
+      <div className="mx-2">
         <div className="flex items-center text-xl my-2 text-indigo-600">
           <h1 className="mr-2 font-semibold">Ю-Money</h1>
           <BiSolidDonateHeart />

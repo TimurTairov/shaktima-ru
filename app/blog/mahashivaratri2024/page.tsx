@@ -7,10 +7,10 @@ import shiva from '@/public/images/shiva.png'
 
 const MahaShivaRatri2024 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-4 rounded-lg bg-white/40">
+    <div className="max-w-screen-xl mx-2 lg:mx-auto my-4 rounded-lg bg-white/50">
       <div className="mx-2">
-        <h3 className="dark:text-white text-gray-700 font-bold text-2xl">Махашиваратри 2024</h3>
-        <div className="dark:text-slate-400 text-gray-700 mt-4">
+        <h3 className=" text-gray-700 font-bold text-2xl">Махашиваратри 2024</h3>
+        <div className=" text-gray-700 mt-4">
           <p>Махашиваратри в этом году удался на славу Махадэву в прекрасном зале &quot;Энергия Баланса&quot;.</p>
           <p>
             У нас было четыре пуджи, динамическая медитация, танцы, йога, чай, ханг, общение и прасад. На праздник пришло около 50 практикующих, многие из

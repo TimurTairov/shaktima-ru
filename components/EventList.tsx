@@ -7,7 +7,7 @@ import notDone from "@/public/images/icons/notdone2.png"
 
 const EventList = () => {
   return (
-    <div>
+    <div className='mx-2'>
       {eventList2024.map(item => (
         <div key={item.id} className=' flex items-center'>
           <Image src={item.done ? done : notDone} width={20} height={18} alt='done' />

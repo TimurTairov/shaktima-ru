@@ -8,7 +8,7 @@ interface PudjariTypeProps {
 
 const Pudjari: React.FC<PudjariTypeProps> = ({ img, name, description }) => {
   return (
-    <div className="flex items-center h-48 w-auto rounded-lg p-1 my-4 bg-white/40">
+    <div className="flex items-center h-48 w-auto rounded-lg p-1 my-4 bg-white/50">
       <Image
         src={img}
         width={150}
