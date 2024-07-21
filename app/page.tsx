@@ -22,16 +22,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen px-1 flex-col items-center justify-between">
       <>
-        <div className="flex h-10 lg:h-20 w-full z-20 items-center justify-center rounded bg-gradient-to-tr to-red-700 from-red-800">
-          <div className="w-max">
-            <h1
-              className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 lg:pr-7 text-xs md:text-base  lg:text-3xl text-white font-bold">
-              Поздравляем сангху с праздником Гуру Пурнима!
-              {/* Добро пожаловать в пространство чистого видения! */}
-            </h1>
-          </div>
-        </div>
-
         <div className="max-w-screen-xl mx-auto mt-4">
           {/* banners */}
           <section className=" lg:flex justify-between lg:space-x-2">

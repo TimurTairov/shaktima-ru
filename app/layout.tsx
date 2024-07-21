@@ -27,14 +27,14 @@ export default function RootLayout({
         </div> */}
 
         <div className="area absolute top-0 bottom-0 h-full w-full z-[-1]">
-          <div className="flex flex-col w-full h-full blur-[108px] lg:blur-[200px]  opacity-40">
-            <div className="bg-red-500 h-full"></div>
+          <div className="flex flex-col w-full h-full opacity-40 blur-[108px] lg:blur-[200px]  ">
+            <div className="bg-red-500 h-full "></div>
             <div className="bg-orange-500 h-full"></div>
-            <div className="bg-yellow-500 h-full"></div>
-            <div className="bg-green-500 h-full"></div>
-            <div className="bg-sky-500 h-full"></div>
-            <div className="bg-blue-500 h-full"></div>
-            <div className="bg-violet-500 h-full"></div>
+            <div className="bg-yellow-500 h-full "></div>
+            <div className="bg-green-500 h-full "></div>
+            <div className="bg-sky-500 h-full "></div>
+            <div className="bg-blue-500 h-full "></div>
+            <div className="bg-violet-500 h-full "></div>
           </div>
         </div>
 
