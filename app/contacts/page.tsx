@@ -10,7 +10,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const Contacts = () => {
   return (
-    <div className="max-w-screen-xl mx-2 lg:mx-auto px-1 my-4 h-screen bg-white/40">
+    <div className="max-w-screen-xl mx-2 lg:mx-auto px-1 my-4 h-screen rounded-lg bg-white/40">
       <div className='mx-2'>
         <h1 className="text-2xl my-2">Контакты для связи</h1>
         <div className="flex mb-2">

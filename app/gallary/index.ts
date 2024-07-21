@@ -37,7 +37,7 @@ export const allGallaries = [
   {
     id: '006',
     tittle: 'Дханвантари джаянти',
-    description: 'Более 20 фотографий с Дханвантари джаянти',
+    description: 'Более 20 фотографий с Дханвантари джаянти 2023',
     img: 'https://sun9-46.userapi.com/impg/yShUNhd8FiGQJtcFg42JEa3hrOmhARAbld6r2A/Xf9G5OqbALs.jpg?size=1008x1008&quality=95&sign=c67181e637b9180e8cc74ca81096f352&type=album',
     url: '/gallary/dhanvantarijayantiphoto2023',
   },
