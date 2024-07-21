@@ -4,7 +4,7 @@ import { FaTelegram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="mx-auto border-t mt-auto py-5 px-2 bg-white shadow-md">
+    <footer className="mx-auto border-t mt-auto py-5 px-2 bg-white">
       <div className="md:flex">
         <div className="w-full mb-5 md:w-2/5 lg:ml-20">
           <h6 className="font-semibold text-gray-700 mb-4">

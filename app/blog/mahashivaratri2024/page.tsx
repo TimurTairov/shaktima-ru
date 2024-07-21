@@ -4,7 +4,6 @@ import Image from 'next/image'
 import VideoPlayer from '@/components/VideoPlayer'
 import shiva from '@/public/images/shiva.png'
 
-
 const MahaShivaRatri2024 = () => {
   return (
     <div className="max-w-screen-xl mx-2 lg:mx-auto my-4 rounded-lg bg-white/50">

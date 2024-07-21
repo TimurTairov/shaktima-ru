@@ -12,7 +12,7 @@ interface ArticalTypeProps {
 //! блог и галлерея
 const Article: React.FC<ArticalTypeProps> = ({ img, tittle, txt, url }) => {
   return (
-    <div className="w-full lg:w-96 flex flex-col rounded-lg mb-4 lg:mr-4 bg-white/40">
+    <div className="w-full lg:w-96 flex flex-col rounded-lg mb-4 lg:mr-4 bg-white/50 border-2 border-white/10 backdrop-blur-3xl shadow-md shadow-black/70">
       <div className="h-[25rem] md:h-[35rem] lg:h-80 w-full  relative">
         <Image src={img} alt="img" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className='rounded-lg' />
       </div>

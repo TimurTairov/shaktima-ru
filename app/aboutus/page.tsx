@@ -1,6 +1,12 @@
 import Pudjari from '@/components/Pudjari'
 import { pudjari } from './pudjari'
 import Link from 'next/link'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Информация о нас',
+  description: 'Пуджари московского Дхарма центра ШактиМа',
+}
 
 function AboutUs() {
   return (

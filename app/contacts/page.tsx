@@ -3,10 +3,13 @@ import youtube from '@/public/images/icons/youtube.png'
 import tg from '@/public/images/icons/tg.png'
 import om from '@/public/images/om_big.png'
 import whapsup from '../../public/images/icons/whatsapp.png'
-import shop from '@/public/images/icons/shopping-cart.png'
-import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Контакты',
+  description: 'Контакты и ресурсы'
+}
 
 const Contacts = () => {
   return (
@@ -61,7 +64,7 @@ const Contacts = () => {
           <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
             <FaShoppingCart color='green' className="h-5 w-5 mr-2" />
             <a href="https://www.siddhashop.com/" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
-              Сиддха шоп. Наш официальный интернет магазин.
+              Сиддха шоп. Наш интернет магазин.
             </a>
           </li>
         </ul>

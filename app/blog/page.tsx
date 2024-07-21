@@ -1,5 +1,12 @@
 import Article from '../../components/Article'
 import { allArticles } from './index'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Блог',
+  description: 'Здесь размещены статьи об Адвайте и йоге'
+}
+
 
 const Blog = () => {
   return (

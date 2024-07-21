@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Ловушка нео-адвайты | блог',
+  description: 'Как не попасть в ловушку нео-адвайты'
+}
+
 const NeoAdwayta = () => {
   return (
     <div className="max-w-screen-xl mx-2 lg:mx-auto mt-4 bg-white/40">

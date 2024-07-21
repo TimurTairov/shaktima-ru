@@ -60,32 +60,6 @@
   flex-flow: row wrap;
 }
 
-.gradient {
-  /* height: 100vh; */
-  z-index: -3;
-  width: 100%;
-  /* max-width: 768px; */
-  background-image: radial-gradient(
-      at 27% 37%,
-      rgb(247, 115, 165) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 97% 21%, rgb(252, 254, 114) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, rgb(118, 233, 248) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, rgb(156, 182, 245) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, rgb(243, 119, 154) 0px, transparent 50%);
-  position: absolute;
-  content: '';
-  width: 100%;
-  /* height: 100vh; */
-  filter: blur(150px) saturate(150%);
-  top: 0;
-  bottom: 0;
-  opacity: 0.15;
-}
-
 .marquee-container:hover .marquee-content {
   animation-play-state: paused;
 }
