@@ -1,5 +1,7 @@
 import { BiSolidDonateHeart } from "react-icons/bi";
 import { Metadata } from 'next'
+import Image from "next/image";
+import om64 from '@/public/images/om-64.png'
 
 export const metadata: Metadata = {
   title: 'Пожертвование',
@@ -47,7 +49,7 @@ const Donate = () => {
           scrolling="no"
         />
       </div>
-
+      <Image src={om64} alt='om' className='h-52 w-52 sm:h-72 sm:w-72 lg:h-96 lg:w-96 mx-auto mt-10 opacity-20' />
     </div>
   )
 }

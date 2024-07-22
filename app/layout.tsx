@@ -4,6 +4,8 @@ import { Manrope } from 'next/font/google'
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer"
+import rainbow from '@/public/rainbow.svg'
+import Image from "next/image";
 
 
 const openSans = Manrope({ subsets: ['cyrillic'] })
@@ -26,15 +28,17 @@ export default function RootLayout({
         {/* <div className=" absolute top-0 bottom-0  w-svw h-full bg-gradient-to-l blur-2xl from-white via-red-100 to-white z-[-1]" >
         </div> */}
 
-        <div className="area absolute top-0 bottom-0 h-full w-full z-[-1]">
-          <div className="flex flex-col w-full h-full opacity-40 blur-[108px] lg:blur-[200px]  ">
-            <div className="bg-red-500 h-full "></div>
+
+        <div className="area absolute top-0 bottom-0 h-full w-full z-[-2]">
+          <div className="flex flex-col justify-center items-center h-full opacity-40 blur-[108px] ">
+            <Image src={rainbow} fill alt='rainbow' />
+            {/* <div className="bg-red-500 h-full "></div>
             <div className="bg-orange-500 h-full"></div>
             <div className="bg-yellow-500 h-full "></div>
             <div className="bg-green-500 h-full "></div>
             <div className="bg-sky-500 h-full "></div>
             <div className="bg-blue-500 h-full "></div>
-            <div className="bg-violet-500 h-full "></div>
+            <div className="bg-violet-500 h-full "></div> */}
           </div>
         </div>
 

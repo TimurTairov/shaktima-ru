@@ -12,7 +12,7 @@ const headerFont = Manrope({ subsets: ['cyrillic'] });
 const Header = () => {
   return (
     <>
-      <div className="flex h-6 w-full items-center justify-center rounded bg-gradient-to-tr to-red-700 from-red-800">
+      <div className="flex h-6 w-full items-center justify-center bg-gradient-to-tr to-red-700 from-red-800">
         <div className="w-max">
           <h1
             className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 lg:pr-7 text-xs md:text-base  lg:text-xl text-white font-bold">

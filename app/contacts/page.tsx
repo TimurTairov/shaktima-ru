@@ -4,6 +4,7 @@ import tg from '@/public/images/icons/tg.png'
 import om from '@/public/images/om_big.png'
 import whapsup from '../../public/images/icons/whatsapp.png'
 import { FaShoppingCart } from "react-icons/fa";
+import om64 from '@/public/images/om-64.png'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -56,7 +57,7 @@ const Contacts = () => {
             </a>
           </li>
           <li className="text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
-            <img src="https://institute-vasishtha.com/local/include/template/png/screen-1-img.png" className="w-7 h-7 mr-2" alt="institute-vasishtha.com" />
+            <Image src="https://institute-vasishtha.com/local/include/template/png/screen-1-img.png" width={25} height={25} className="w-7 h-7 mr-2" alt="institute-vasishtha.com" />
             <a href="https://institute-vasishtha.com/" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
               Институт Риши Васиштхи. Прохождение обучения по курсам.
             </a>
@@ -70,7 +71,7 @@ const Contacts = () => {
         </ul>
 
       </div>
-
+      <Image src={om64} alt='om' className='h-52 w-52 sm:h-72 sm:w-72 lg:h-96 lg:w-96 mx-auto mt-10 opacity-20' />
     </div>
   )
 }

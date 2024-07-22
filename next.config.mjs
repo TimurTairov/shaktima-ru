@@ -7,6 +7,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: "*.userapi.com",
       },
+      {
+        protocol: 'https',
+        hostname: "institute-vasishtha.com",
+      },
     ]
   },
   typescript: {
