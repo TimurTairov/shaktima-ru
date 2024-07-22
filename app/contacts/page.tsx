@@ -71,7 +71,7 @@ const Contacts = () => {
         </ul>
 
       </div>
-      <Image src={om64} alt='om' className='h-52 w-52 sm:h-72 sm:w-72 lg:h-96 lg:w-96 mx-auto mt-10 md:mt-32 opacity-20' />
+      <Image src={om64} alt='om' className='h-52 w-52 sm:h-72 sm:w-72 lg:h-96 lg:w-96 mx-auto mt-14 sm:mt-20 md:mt-32 opacity-20' />
     </div>
   )
 }
