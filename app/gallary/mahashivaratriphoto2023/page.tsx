@@ -1,6 +1,6 @@
 'use client'
 import ImageGallery from "react-image-gallery";
-import { mshr_2023 } from '../photos'
+import { mshr_2023 } from '../photos23'
 
 const Mahashivaratriphoto2023 = () => {
   const settings = {
