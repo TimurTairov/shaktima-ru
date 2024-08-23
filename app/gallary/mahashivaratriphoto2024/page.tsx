@@ -1,6 +1,6 @@
 'use client'
 import ImageGallery from "react-image-gallery";
-import { mshr_2024_1, mshr_2024_2 } from '../photos'
+import { mshr_2024_1, mshr_2024_2 } from '../photos24'
 
 const Mahashivaratriphoto2024 = () => {
   const settings = {
@@ -16,13 +16,13 @@ const Mahashivaratriphoto2024 = () => {
       <div className="mx-2">
         <h1 className="text-2xl text-center">Фотографии с МахаШиваРатри 2024</h1>
         <div className="my-4">
-          <h5 className="dark:text-white font-semibold text-lg text-center text-gray-700">Часть 1</h5>
+          <h5 className="font-semibold text-lg text-center text-gray-700">Часть 1</h5>
           <div className="flex justify-center items-center w-full">
             <ImageGallery items={mshr_2024_1} {...settings} />
           </div>
         </div>
         <div className="my-4 ">
-          <h5 className="dark:text-white font-semibold text-lg text-center text-gray-700">Часть 2</h5>
+          <h5 className="font-semibold text-lg text-center text-gray-700">Часть 2</h5>
           <div className="flex justify-center items-center">
             <ImageGallery items={mshr_2024_2} {...settings} />
           </div>

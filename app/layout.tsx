@@ -28,7 +28,6 @@ export default function RootLayout({
         {/* <div className=" absolute top-0 bottom-0  w-svw h-full bg-gradient-to-l blur-2xl from-white via-red-100 to-white z-[-1]" >
         </div> */}
 
-
         <div className="area absolute top-0 bottom-0 h-full w-full z-[-2]">
           <div className="flex flex-col justify-center items-center h-full opacity-40 blur-[108px] ">
             <Image src={rainbow} fill alt='rainbow' />

@@ -2,7 +2,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import VideoPlayer from '@/components/VideoPlayer'
+import Rutube from '@/components/Rutube'
 import shiva from '@/public/images/shiva.png'
+
+
 
 const MahaShivaRatri2024 = () => {
   return (
@@ -20,10 +23,16 @@ const MahaShivaRatri2024 = () => {
           <p>Хара Хара Махадева</p>
           <Image src={shiva} width={64} height={64} alt='shiva' className='mt-2' />
         </div>
-        <div className="mt-10">
-          <h5 className="dark:text-white font-semibold text-lg text-center text-gray-700 lg:ml-2 mb-2">Видео с Махашиваратри</h5>
+        {/* <div className="mt-10">
+          <h5 className="font-semibold text-lg text-center text-gray-700 lg:ml-2 mb-2">Видео с Махашиваратри (YouTube)</h5>
           <div className='lg:mx-40'>
             <VideoPlayer link='https://youtu.be/6Rb7frU3Org' />
+          </div>
+        </div> */}
+        <div className=" lg:mt-20">
+          <h5 className="font-semibold text-lg text-center text-gray-700 lg:ml-2 mb-2">Видео с Махашиваратри (RuTube)</h5>
+          <div className='lg:mx-40'>
+            <iframe src="https://rutube.ru/play/embed/65cff768edabe0447d5211b2162e5742?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen></iframe>
           </div>
         </div>
         <p className="dark:text-slate-400 text-indigo-700 hover:underline mt-10 mb-5">

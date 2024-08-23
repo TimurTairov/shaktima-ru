@@ -1,5 +1,5 @@
 'use client'
-import { brahmanandaJayanti_2024 } from '../photos'
+import { brahmanandaJayanti_2024 } from '../photos24'
 import ImageGallery from "react-image-gallery";
 
 

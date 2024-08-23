@@ -41,4 +41,12 @@ export const allGallaries = [
     img: 'https://sun9-46.userapi.com/impg/yShUNhd8FiGQJtcFg42JEa3hrOmhARAbld6r2A/Xf9G5OqbALs.jpg?size=1008x1008&quality=95&sign=c67181e637b9180e8cc74ca81096f352&type=album',
     url: '/gallary/dhanvantarijayantiphoto2023',
   },
+  {
+    id: '007',
+    tittle: 'Дни Индии в Москве',
+    description:
+      'Более 108 фотографий. Дни Индии в Москве с 15 по 18 августа 2024 года',
+    img: 'https://sun9-58.userapi.com/impg/v1lxbvFPTrCLkaQ7Xq72ofHleC1IZ7tLhyVSCw/zhJts6al-CU.jpg?size=1280x720&quality=95&sign=d03983a93ea2b8dfa240bb7af13c8efc&type=album',
+    url: '/gallary/indiaday2024',
+  },
 ]

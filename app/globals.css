@@ -63,3 +63,14 @@
 .marquee-container:hover .marquee-content {
   animation-play-state: paused;
 }
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+@media ((max-width: 400px)) {
+  iframe {
+    height: 250px;
+  }
+}

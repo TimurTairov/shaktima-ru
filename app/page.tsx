@@ -5,7 +5,7 @@ import { news } from './news'
 import logo from '@/public/images/ShaktiMa-logo.jpg'
 import Column from '@/components/Column'
 import ImageGallery from "react-image-gallery";
-import { home_banner_1 } from './gallary/photos'
+import { home_banner_1 } from './gallary/photos23'
 
 export default function Home() {
   const settings = {
@@ -60,6 +60,12 @@ export default function Home() {
                     <Link href="/blog/eventlist2024" className="flex items-center text-sm text-indigo-600 hover:underline">
                       <Image src={logo} alt="logo" width={18} height={18} className="mr-2 rounded" />
                       Календарь событий 2024
+                    </Link>
+                  </li>
+                  <li className=" px-1 py-1 border-y border-white hover:border-gray-200 transition-all duration-300">
+                    <Link href="/blog/indiaday2024" className="flex items-center text-sm text-indigo-600 hover:underline">
+                      <Image src={logo} alt="logo" width={18} height={18} className="mr-2 rounded" />
+                      День Индии 2024
                     </Link>
                   </li>
                   <li className="px-1 py-1 border-y border-white hover:border-gray-200 transition-all duration-300">
