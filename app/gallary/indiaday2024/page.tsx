@@ -4,7 +4,7 @@ import { indiaday__2024, indiaday_deti_2024, indiaday_praktiki_2024, indiaday_sh
 
 const page = () => {
   const settings = {
-    showBullets: true,
+    showBullets: false,
     showIndex: true,
     slideDuration: 1000,
     slideInterval: 3000,

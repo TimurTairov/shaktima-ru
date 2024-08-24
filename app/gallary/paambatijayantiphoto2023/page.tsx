@@ -4,7 +4,7 @@ import { paambatiJayanti_2023 } from '../photos23'
 
 const Paambatijayantiphoto2023 = () => {
   const settings = {
-    showBullets: true,
+    showBullets: false,
     showIndex: true,
     slideDuration: 1000,
     slideInterval: 3000,

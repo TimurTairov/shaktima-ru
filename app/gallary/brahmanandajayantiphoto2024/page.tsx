@@ -5,7 +5,7 @@ import ImageGallery from "react-image-gallery";
 
 const Brahmanandajayantiphoto2024 = () => {
   const settings = {
-    showBullets: true,
+    showBullets: false,
     showIndex: true,
     slideDuration: 1000,
     slideInterval: 3000,
